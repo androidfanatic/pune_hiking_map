@@ -11,9 +11,8 @@ app.get('/token', (req, res) => {
 });
 
 const places = [
-  {
-    name: 'Rajgad', lat: 18.2618347, lng: 73.6345825, zoom: 14,
-  },
+  { name: 'Rajgad', lat: 18.2618347, lng: 73.6345825, zoom: 14, },
+  { name: 'Sinhagad', lat: 18.3663, lng: 73.7559, zoom: 14, },
 ];
 
 app.get('/places', (req, res) => {
