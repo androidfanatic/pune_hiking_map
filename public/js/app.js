@@ -29,7 +29,7 @@ new Vue({
       mapboxgl.accessToken = json.token;
       this.map = new mapboxgl.Map({
         container: 'map',
-        zoom: 12,
+        zoom: 11,
         center: [73.8567, 18.5204],
         style: 'mapbox://styles/mapbox/dark-v9',
         hash: true,
